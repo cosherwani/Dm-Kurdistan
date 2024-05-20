@@ -195,7 +195,7 @@ header .navbar a{
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background:url(img/hero4.png) no-repeat;
+  background:url(extra/hero4.png) no-repeat;
   background-size: cover;
   background-position:center:
 
