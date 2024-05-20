@@ -84,6 +84,7 @@ header .icons a{
 header .icons a:hover{
   color: var(--pink);
 }
+
 header #toggler{
   display: none;
 }
@@ -220,7 +221,7 @@ line-height: 1.5;
 line-height: 1.5;
 
 }
-icon-continer .icons h3{ 
+.icon-continer .icons h3{ 
   color: #333;
   padding-bottom: 0.5rem;
   font-size: 2rem;
@@ -390,18 +391,24 @@ position: relative;
 }
 .products .box-container .box .content h3{
   font-size:2.5rem ;
+
   color: #333;
+}
+.products .box-container .box .content h4{
+  font-size:1.3rem ;
+  padding: 1rem 1rem;
+  
 }
 
 .products .box-container .box .content .price{
-  font-size:2.5rem ;
+  font-size:2.3rem ;
   color: var(--pink);
   font-weight: bolder;
   padding-top: rem;
 }
 
 .products .box-container .box .content .price span{
-  font-size:1.5rem ;
+  font-size:1.8rem ;
   color: #999;
   font-weight: lighter;
   text-decoration: line-through;
@@ -416,11 +423,11 @@ position: relative;
 }
 
 .review .box-container .box{
-  flex: 1 1 30 rem;
+  flex: 1 1 30rem;
   box-shadow: 0 0.5rem 15rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   position: relative;
-  border: .5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.2rem solid rgba(0, 0, 0, 0.1);
 }
 
 .review .box-container .box .fasfa-quote-right{
@@ -446,11 +453,11 @@ position: relative;
   padding-top: 2rem;
 }
 .review .box-container .box .user img{
-  height: 6rem;
-  width: 6rem;
-  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 90%;
   object-fit: cover;
-  margin-right: 1rem;
+  margin-right: 4rem;
 }
 
 .review .box-container .box .user h3{
@@ -542,4 +549,10 @@ border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 .footer .credit span{
   color: var(--pink);
+}
+.footer .box-container .box img{
+  text-align: left;
+  width: 90%;
+  border: #333 solid rgba(0, 0, 0, 0.1);
+  flex: 1 1 40rem;
 }
