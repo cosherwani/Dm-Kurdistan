@@ -197,7 +197,7 @@ header .navbar a{
   min-height: 100vh;
   background:url(extra/hero4.png) no-repeat;
   background-size: cover;
-  background-position:center:
+  background-position:center;
 
 }
 .home .content{
